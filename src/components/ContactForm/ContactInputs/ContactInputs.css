@@ -1,0 +1,41 @@
+@media screen and (max-width: 575px) {
+    .contactinputs__container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .contactinputs__wrapper input{
+        margin-top: 20px;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        color: rgb(4, 121, 4);;
+        background: rgb(212, 212, 212);
+        border: none;
+    }
+    .contactinputs__wrapper input::placeholder{
+        color: rgb(4, 121, 4);;
+        font-weight: 500;
+    }
+
+  }
+@media screen and (min-width: 576px) {
+    .contactinputs__container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .contactinputs__wrapper input{
+        margin-top: 30px;
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        color: rgb(4, 121, 4);;
+        background: rgb(212, 212, 212);
+        border: none;
+    }
+    .contactinputs__wrapper input::placeholder{
+        color: rgb(4, 121, 4);;
+        font-weight: 500;
+    }
+  }

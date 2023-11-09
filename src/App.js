@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import ContactForm from './components/ContactForm/ContactForm';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app__container'>
+      <div className='app__wrapper'>
+        <h2>Czy już widzisz tutaj swój nowy dom? Skontaktuj się z nami</h2>
+        <h2>i porozmawiajmy o ofercie na działki!</h2>
+        <ContactForm />
+      </div>
     </div>
   );
 }
